@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon_io (1)/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>QR Code Generator</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="wrapper">
+            <div class="card">
+                <button type="button" class="dismiss">×</button>
+                <div class="header">
+                    <div class="image">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                            <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" stroke="#000000"
+                                    d="M20 7L9.00004 18L3.99994 13"></path>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="content">
+                        <span class="title">QR Code</span>
+                        <div class="QR">
+
+                        </div>
+                        <!-- <p class="message">Thank you</p> -->
+                    </div>
+                    <div class="input">
+                        <input id="inputText" type="text" placeholder="Enter your text or URL">
+                    </div>
+                    <div class="actions">
+                        <button type="button" class="Generate" id="generate">Generate QR Code</button>
+                        <button type="button" class="Download" id="download">Download</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" ></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
